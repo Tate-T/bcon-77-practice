@@ -142,3 +142,47 @@ header-list-link:focus {
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
 }
+
+.ingredients {
+}
+.ingredients-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.ingredients-title-accent {
+  color: #fd9222;
+}
+
+.ingredients-list {
+}
+
+.ingredients-item:nth-child(4n + 1) {
+  background: #fd9222;
+}
+
+.ingredients-item:nth-child(4n + 3) {
+  background: #1e1823;
+}
+
+.ingredients-item:nth-child(2n) {
+  background: #fff;
+}
+
+.ingredients-img {
+}
+
+.ingredients-subtitle {
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.ingredients-item:nth-child(2n) .ingredients-subtitle {
+  color: #111;
+}
