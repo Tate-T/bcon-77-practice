@@ -5,17 +5,12 @@ body {
   font-size: 14px;
 }
 
-a {
-  text-decoration: none;
-  color: currentColor;
-}
-button {
-  cursor: pointer;
-  color: currentColor;
-  font-family: inherit;
-}
-address {
-  font-style: normal;
+.container {
+  width: 1168px;
+  outline: solid red;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
 }
 
 .visually-hidden {
