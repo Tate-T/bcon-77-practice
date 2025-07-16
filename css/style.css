@@ -28,6 +28,7 @@ body {
 }
 
 .header {
+  padding: 20px 0;
 }
 
 .header-nav {
@@ -42,6 +43,7 @@ body {
 }
 
 .logo-image {
+  width: 24px;
 }
 
 .header-list {
@@ -70,6 +72,7 @@ header-list-link:focus {
 }
 
 .socials-icons {
+  width: 40px;
 }
 
 .hero {
@@ -113,6 +116,8 @@ header-list-link:focus {
 
 .benefits {
   background-color: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .benefits-title {
@@ -139,6 +144,8 @@ header-list-link:focus {
 }
 
 .ingredients {
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
 .ingredients-title {
   font-weight: 600;
@@ -180,4 +187,30 @@ header-list-link:focus {
 
 .ingredients-item:nth-child(2n) .ingredients-subtitle {
   color: #111;
+}
+
+/* Made section */
+.made {
+  padding: 60px 0;
+}
+
+/* products */
+.products {
+  padding: 60px 0;
+}
+
+/* bestsellers */
+.bestsellers {
+  padding: 60px 0;
+}
+
+/* reviews */
+.reviews {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+/* footer */
+.footer {
+  padding: 50px 0;
 }
