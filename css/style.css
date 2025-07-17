@@ -262,6 +262,10 @@ header-list-link:focus {
   padding: 60px 0;
 }
 
+.made-box{
+  display: flex;
+}
+
 /* products */
 .products {
   padding: 60px 0;
