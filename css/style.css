@@ -30,11 +30,21 @@ body {
 .header {
   padding: 20px 0;
 }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .header-nav {
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
+  display: flex;
+  gap: 4px;
+  align-items: center;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11111;
@@ -47,6 +57,9 @@ body {
 }
 
 .header-list {
+  margin-left: 365px;
+  display: flex;
+  gap: 24px;
 }
 
 .header-list-item {
@@ -63,6 +76,7 @@ header-list-link:focus {
 }
 
 .socials {
+  display: flex;
 }
 
 .socials-item {
