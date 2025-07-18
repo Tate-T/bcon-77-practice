@@ -27,13 +27,10 @@
         <nav class="header-nav">
           <a class="header-logo" href="">
             <i>Simply</i> Chocolate
-            <img
-              class="logo-image"
-              src="./images/chocolate.svg"
-              alt="logo"
-              width="24"
-              height="24"
-            />
+      
+            <svg class="logo-image">
+              <use href="./images/symbol-defs.svg#icon-logo"></use>
+            </svg>
           </a>
 
           <ul class="header-list">
@@ -57,13 +54,11 @@
               aria-label="facebook"
               target="_blank"
               rel="noopener noreferrer"
-              ><img
-                class="socials-icons"
-                src="./images/social/facebook.svg"
-                alt="facebook"
-                width="40"
-                height="40"
-            /></a>
+              >
+            <svg class="socials-icons">
+              <use href="./images/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+            </a>
           </li>
           <li class="socials-item">
             <a
@@ -72,13 +67,11 @@
               aria-label="instagram"
               target="_blank"
               rel="noopener noreferrer"
-              ><img
-                class="socials-icons"
-                src="./images/social/instagram.svg"
-                alt="instagram"
-                width="40"
-                height="40"
-            /></a>
+              >
+            <svg class="socials-icons">
+              <use href="./images/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+            </a>
           </li>
           <li class="socials-item">
             <a
@@ -87,13 +80,12 @@
               aria-label="twitter"
               target="_blank"
               rel="noopener noreferrer"
-              ><img
-                class="socials-icons"
-                src="./images/social/twitter.svg"
-                alt="twitter"
-                width="40"
-                height="40"
-            /></a>
+              >
+              <svg class="socials-icons">
+              <use href="./images/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+            
+            </a>
           </li>
         </ul>
       </div>
@@ -479,35 +471,45 @@
 
         <!-- Socials -->
         <p>Social networks</p>
-        <ul>
-          <li>
+         <ul class="socials">
+          <li class="socials-item">
             <a
-              href="https://facebook.com"
+              class="socials-link"
+              href=""
+              aria-label="facebook"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Link to Facebook"
-            >
-              <img src="./images/social/facebook.svg" alt="Facebook icon" />
+              >
+            <svg class="socials-icons">
+              <use href="./images/symbol-defs.svg#icon-facebook"></use>
+            </svg>
             </a>
           </li>
-          <li>
+          <li class="socials-item">
             <a
-              href="https://instagram.com"
+              class="socials-link"
+              href=""
+              aria-label="instagram"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Link to Instagram"
-            >
-              <img src="./images/social/instagram.svg" alt="Instagram icon" />
+              >
+            <svg class="socials-icons">
+              <use href="./images/symbol-defs.svg#icon-instagram"></use>
+            </svg>
             </a>
           </li>
-          <li>
+          <li class="socials-item">
             <a
-              href="https://twitter.com"
+              class="socials-link"
+              href=""
+              aria-label="twitter"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Link to Twitter (X)"
-            >
-              <img src="./images/social/twitter.svg" alt="Twitter (X) icon" />
+              >
+              <svg class="socials-icons">
+              <use href="./images/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+            
             </a>
           </li>
         </ul>

@@ -54,6 +54,9 @@ body {
 
 .logo-image {
   width: 24px;
+  height: 24px;
+  stroke: #FD9222;
+  fill: #FCF1E0;
 }
 
 .header-list {
@@ -87,7 +90,17 @@ header-list-link:focus {
 }
 
 .socials-icons {
-  width: 40px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+border-radius: 10px;
+padding: 8px;
+width: 40px;
+height: 40px;
+fill: #111111;
+
+}
+
+.socials-icons:hover {
+  fill: #FD9222;
 }
 
 .hero {
