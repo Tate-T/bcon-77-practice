@@ -208,8 +208,12 @@ fill: #111111;
   font-weight: 600;
   font-size: 18px;
 
+
   line-height: 1.22;
   color: #ffffff;
+}
+.chocolate-icon {
+  fill: #FD9222;
 }
 
 .benefits-text {
