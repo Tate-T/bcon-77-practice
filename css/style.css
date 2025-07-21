@@ -72,6 +72,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.02em;
+  transition: color 250ms;
 }
 .header-list-link:hover,
 header-list-link:focus {
@@ -96,6 +97,7 @@ header-list-link:focus {
   width: 40px;
   height: 40px;
   fill: #111111;
+  transition: fill 250ms ease-in-out;
 }
 
 .socials-icons:hover {
@@ -145,16 +147,26 @@ header-list-link:focus {
   padding: 14px 40px;
   border-radius: 100px;
   color: #ffffff;
+  transition: color 250ms, background-color 250ms;
 }
 
 .hero-button-primary {
   background-color: #fd9222;
+}
+.hero-button-primary:hover {
+  color:#fd9222;
+  background-color: #FCF1E0;
+  
 }
 
 .hero-button-secondary {
   border: 1px solid #ffffff;
 
   background-color: transparent;
+}
+.hero-button-secondary:hover {
+  color: #fd9222;
+  border-color: #fd9222;
 }
 
 .hero-arrow {
@@ -169,19 +181,30 @@ header-list-link:focus {
   gap: 14px;
 }
 
+.hero-arrow:hover {
+  color:#fd9222;
+}
+
 .hero-scroll {
   width: 22px;
   height: 22px;
-  fill: #fd9222;
+  fill:#fd9222;
 }
+.hero-arrow:hover .hero-scroll {
+  fill:#FFFFFF;
+}
+
 .hero-circle {
   border-radius: 100%;
-  background-color: #ffffff;
+  background-color:#ffffff;
   width: 38px;
   height: 38px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hero-arrow:hover .hero-circle {
+  background-color:#fd9222;
 }
 
 .hero-icon {
