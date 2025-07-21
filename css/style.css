@@ -176,6 +176,7 @@ header-list-link:focus {
   letter-spacing: -0.03em;
   color: #ffffff;
   display: flex;
+  transition: color 250ms;
 
   align-items: center;
   gap: 14px;
@@ -189,6 +190,7 @@ header-list-link:focus {
   width: 22px;
   height: 22px;
   fill:#fd9222;
+  transition: fill 250ms;
 }
 .hero-arrow:hover .hero-scroll {
   fill:#FFFFFF;
@@ -202,6 +204,7 @@ header-list-link:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms;
 }
 .hero-arrow:hover .hero-circle {
   background-color:#fd9222;
