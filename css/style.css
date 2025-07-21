@@ -26,6 +26,19 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fd9222;
+}
+
+.title span {
+  color: #111;
+}
 
 .header {
   padding: 20px 0;
@@ -331,6 +344,52 @@ header-list-link:focus {
 /* products */
 .products {
   padding: 60px 0;
+}
+
+.products-photo {
+  width: 230px;
+}
+
+
+
+.products-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.products-name {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.products-button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
+}
+
+.bestsellers-photo {
+  width: 368px;
+}
+
+.bestsellers-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.chocolate-lovers-photo {
+  width: 80px;
 }
 
 /* bestsellers */
