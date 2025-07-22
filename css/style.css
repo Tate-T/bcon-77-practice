@@ -483,18 +483,28 @@ header-list-link:focus {
 
 }
 .modal-item input {
+  display: block;
 border: 1.50px solid rgba(17, 17, 17, 0.05);
 border-radius: 13px;
 padding: 22px 24px;
 width: 436px;
 height: 68px;
 box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+outline: none;
+/* margin-right: 2px; */
 }
+
+.modal-item input:focus {
+  border-color: #FD9222; 
+
+}
+
 .modal-label {
 font-weight: 400;
 font-size: 14px;
 letter-spacing: -0.02em;
 color: rgba(64, 64, 64, 0.3);
+
 }
 .modal-feedback {
   border: 1.50px solid rgba(17, 17, 17, 0.05);
@@ -504,6 +514,10 @@ width: 436px;
 height: 137px;
 }
 .modal-checkbox {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 18px;
   
 }
 .modal-text{
@@ -516,17 +530,11 @@ color: rgba(64, 64, 64, 0.6);
 .modal-check {
   border-radius: 6px;
 border: 1px solid rgba(17, 17, 17, 0.14);
-margin-top: 18px;
 }
 .modal-link { 
   color: #FD9222;
 }
-.form-button {
-  display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: row;
-gap: 10px;
+.modal-button {
 border-radius: 100px;
 padding: 14px 40px;
 width: 117px;
