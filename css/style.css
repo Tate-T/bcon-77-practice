@@ -167,9 +167,8 @@ header-list-link:focus {
   background-color: #fd9222;
 }
 .hero-button-primary:hover {
-  color:#fd9222;
-  background-color: #FCF1E0;
-  
+  color: #fd9222;
+  background-color: #fcf1e0;
 }
 
 .hero-button-secondary {
@@ -196,22 +195,22 @@ header-list-link:focus {
 }
 
 .hero-arrow:hover {
-  color:#fd9222;
+  color: #fd9222;
 }
 
 .hero-scroll {
   width: 22px;
   height: 22px;
-  fill:#fd9222;
+  fill: #fd9222;
   transition: fill 250ms;
 }
 .hero-arrow:hover .hero-scroll {
-  fill:#FFFFFF;
+  fill: #ffffff;
 }
 
 .hero-circle {
   border-radius: 100%;
-  background-color:#ffffff;
+  background-color: #ffffff;
   width: 38px;
   height: 38px;
   display: flex;
@@ -220,7 +219,7 @@ header-list-link:focus {
   transition: background-color 250ms;
 }
 .hero-arrow:hover .hero-circle {
-  background-color:#fd9222;
+  background-color: #fd9222;
 }
 
 .hero-icon {
@@ -350,8 +349,6 @@ header-list-link:focus {
   width: 230px;
 }
 
-
-
 .products-subtitle {
   font-weight: 600;
   font-size: 18px;
@@ -451,7 +448,7 @@ header-list-link:focus {
   opacity: 0;
   pointer-events: none;
 } */
- .backdrop {
+.backdrop {
 }
 .model-hidden {
 }
@@ -466,7 +463,6 @@ header-list-link:focus {
   max-width: 330px;
   text-align: left;
   padding-left: 32px;
- 
 }
 .modal-form {
   margin-top: 42px;
@@ -477,72 +473,95 @@ header-list-link:focus {
   gap: 18px;
 }
 .modal-item {
+  position: relative;
+
   display: flex;
   flex-direction: column;
   gap: 8px;
-
 }
 .modal-item input {
   display: block;
-border: 1.50px solid rgba(17, 17, 17, 0.05);
-border-radius: 13px;
-padding: 22px 24px;
-width: 436px;
-height: 68px;
-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
-outline: none;
-/* margin-right: 2px; */
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 13px;
+  padding: 22px 24px 22px 62px;
+  width: 436px;
+  height: 68px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+  outline: none;
+
+  /* margin-right: 2px; */
+}
+
+.modal-item input:focus + .model-icon {
+  stroke: #fd9222;
 }
 
 .modal-item input:focus {
-  border-color: #FD9222; 
-
+  border-color: #fd9222;
 }
 
 .modal-label {
-font-weight: 400;
-font-size: 14px;
-letter-spacing: -0.02em;
-color: rgba(64, 64, 64, 0.3);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
+}
 
+.model-icon {
+  position: absolute;
+  bottom: 22px;
+  left: 24px;
+  stroke: #404040;
+  fill: transparent;
+
+  transition: stroke 300ms ease-in-out;
 }
+
 .modal-feedback {
-  border: 1.50px solid rgba(17, 17, 17, 0.05);
-border-radius: 13px;
-padding: 22px 24px 93px 24px;
-width: 436px;
-height: 137px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 13px;
+  padding: 22px 24px 93px 24px;
+  width: 436px;
+  height: 137px;
+  resize: none;
+  outline: none;
+
+  transition: border-color 300ms ease-in-out;
 }
+
+.modal-feedback:focus {
+  border-color: #fd9222;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.03);
+}
+
 .modal-checkbox {
   display: flex;
   gap: 12px;
   align-items: center;
   margin-top: 18px;
-  
 }
-.modal-text{
-font-weight: 400;
-font-size: 14px;
-letter-spacing: -0.02em;
-color: rgba(64, 64, 64, 0.6);
+.modal-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.6);
 }
 
 .modal-check {
   border-radius: 6px;
-border: 1px solid rgba(17, 17, 17, 0.14);
+  border: 1px solid rgba(17, 17, 17, 0.14);
 }
-.modal-link { 
-  color: #FD9222;
+.modal-link {
+  color: #fd9222;
 }
 .modal-button {
-border-radius: 100px;
-padding: 14px 40px;
-width: 117px;
-height: 45px;
-background: #fd9222;
-margin-top: 40px;
-font-weight: 600;
-font-size: 14px;
-color: #fff;
-
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 117px;
+  height: 45px;
+  background: #fd9222;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
 }
