@@ -444,14 +444,13 @@ header-list-link:focus {
   height: 28px;
 }
 
-/* .model-hidden {
+.modal-hidden {
   opacity: 0;
   pointer-events: none;
-} */
+}
 .backdrop {
 }
-.model-hidden {
-}
+
 .modal {
   padding: 38px 40px 40px;
 }
