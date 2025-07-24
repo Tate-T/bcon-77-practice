@@ -1,23 +1,30 @@
 @media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1168px;
-    }
+  .container {
+    max-width: 1168px;
+  }
 
-    .header-logo {
-  font-size: 18px;
-   line-height: 1.11111;
-}
+  .header-logo {
+    font-size: 18px;
+    line-height: 1.11111;
+  }
 
-.logo-image {
-  width: 24px;
-  height: 24px;
-}
-.header-list {
+  .logo-image {
+    width: 24px;
+    height: 24px;
+  }
+  .header-list {
     gap: 24px;
-}
+  }
 
-.header-nav {
-  margin-right: 90px;
-}
-   
+  .header-nav {
+    margin-right: 90px;
+  }
+
+  .hero {
+    padding-bottom: 80px;
+  }
+
+  .hero-container {
+    padding: 381px 40px 40px 40px;
+  }
 }
