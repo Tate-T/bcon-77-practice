@@ -63,4 +63,18 @@
   .hero-icon {
     width: 22px;
   }
+
+  .benefits {
+    padding-top: 50px;
+    padding-bottom: 50x;
+  }
+
+  .benefits-list {
+    column-gap: 88px;
+    row-gap: 44px;
+  }
+
+  .benefits-item {
+    max-width: 308px;
+  }
 }
