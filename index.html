@@ -1,73 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/table.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
+    l
+    <title>Simply Chocolate</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./css/reset.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <title>Simply Chocolate</title>
-</head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="header-logo" href="">
+            <i>Simply</i> Chocolate
 
-<body>
-  <header class="header">
-    <div class="container header-container">
-      <nav class="header-nav">
-        <a class="header-logo" href="">
-          <i>Simply</i> Chocolate
+            <svg class="logo-image">
+              <use href="./images/symbol-defs.svg#icon-logo"></use>
+            </svg>
+          </a>
 
-          <svg class="logo-image">
-            <use href="./images/symbol-defs.svg#icon-logo"></use>
-          </svg>
-        </a>
+          <ul class="header-list">
+            <li class="header-list-item">
+              <a class="header-list-link" href="">Home</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-list-link" href="">How it&#39;s made?</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-list-link" href="">Chocolate is loved</a>
+            </li>
+          </ul>
+        </nav>
 
-        <ul class="header-list">
-          <li class="header-list-item">
-            <a class="header-list-link" href="">Home</a>
+        <ul class="socials">
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              href=""
+              aria-label="facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="socials-icons">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
           </li>
-          <li class="header-list-item">
-            <a class="header-list-link" href="">How it&#39;s made?</a>
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              href=""
+              aria-label="instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="socials-icons">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
           </li>
-          <li class="header-list-item">
-            <a class="header-list-link" href="">Chocolate is loved</a>
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              href=""
+              aria-label="twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="socials-icons">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
           </li>
         </ul>
-      </nav>
-
-      <ul class="socials">
-        <li class="socials-item">
-          <a class="socials-link" href="" aria-label="facebook" target="_blank" rel="noopener noreferrer">
-            <svg class="socials-icons">
-              <use href="./images/symbol-defs.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="socials-item">
-          <a class="socials-link" href="" aria-label="instagram" target="_blank" rel="noopener noreferrer">
-            <svg class="socials-icons">
-              <use href="./images/symbol-defs.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="socials-item">
-          <a class="socials-link" href="" aria-label="twitter" target="_blank" rel="noopener noreferrer">
-            <svg class="socials-icons">
-              <use href="./images/symbol-defs.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </header>
-  <main>
-    <section class="hero">
+      </div>
+    </header>
+    <main>
+      <!-- <section class="hero">
       <div class="container hero-container">
         <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
@@ -89,17 +116,13 @@
               </svg>
             </span>
 
-            <!-- <img
-                class="hero-icon"
-                src="./images/arrow.svg"
-                alt="arrow down icon"
-              /> -->
+         
           </a>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="benefits" id="benefits">
+      <!-- <section class="benefits" id="benefits">
       <div class="container">
         <h2 class="visually-hidden">benfits title</h2>
 
@@ -143,10 +166,10 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
 
-    <!-- #region Ingredients -->
-    <section class="ingredients">
+      <!-- #region Ingredients -->
+      <!-- <section class="ingredients">
       <div class="container">
         <h2 class="ingredients-title">
           It all adds up to one exceptional
@@ -189,11 +212,11 @@
           </li>
         </ul>
       </div>
-    </section>
-    <!-- #endregion -->
+    </section> -->
+      <!-- #endregion -->
 
-    <!-- #region Made -->
-    <section class="made">
+      <!-- #region Made -->
+      <!-- <section class="made">
       <div class="container">
         <h2>How it’s <span>made</span>?</h2>
         <div class="made-box">
@@ -226,11 +249,11 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- #endregion -->
+    </section> -->
+      <!-- #endregion -->
 
-    <!-- #region Products -->
-    <section class="products">
+      <!-- #region Products -->
+      <!-- <section class="products">
       <div class="container">
         <h2 class="products-title title">
           <span class="our-color">Our</span> products
@@ -286,11 +309,11 @@
           </li>
         </ul>
       </div>
-    </section>
-    <!-- #endregion Products -->
+    </section> -->
+      <!-- #endregion Products -->
 
-    <!-- #region Bestsellers -->
-    <section class="bestsellers">
+      <!-- #region Bestsellers -->
+      <!-- <section class="bestsellers">
       <div class="container">
         <h2 class="title">Top <span>sellers</span></h2>
         <ul>
@@ -308,11 +331,11 @@
           </li>
         </ul>
       </div>
-    </section>
-    <!-- #endregion Bestsellers -->
+    </section> -->
+      <!-- #endregion Bestsellers -->
 
-    <!-- #region Reviews -->
-    <section class="reviews" id="reviews">
+      <!-- #region Reviews -->
+      <!-- <section class="reviews" id="reviews">
       <div class="container">
         <h2 class="title">Chocolate <span>is loved</span></h2>
         <ul>
@@ -348,16 +371,16 @@
         </ul>
         <button type="button" data-modal-open>Leave a review</button>
       </div>
-    </section>
-    <!-- #endregion Reviews -->
-  </main>
+    </section> -->
+      <!-- #endregion Reviews -->
+    </main>
 
-  <footer class="footer">
+    <!-- <footer class="footer">
     <div class="container">
-      <!-- Slogan -->
+      
       <p><span>Chocolate</span> a delicious cure for a bad day</p>
 
-      <!-- Socials -->
+     
       <p>Social networks</p>
       <ul class="socials">
         <li class="socials-item">
@@ -383,7 +406,7 @@
         </li>
       </ul>
 
-      <!-- Contacts -->
+     
       <address>
         <p>Contact us</p>
         <ul>
@@ -396,7 +419,7 @@
         </ul>
       </address>
 
-      <!-- Aditional nav -->
+      
       <ul>
         <li>
           <a href="#">Home</a>
@@ -409,8 +432,8 @@
         </li>
       </ul>
     </div>
-  </footer>
-
+  </footer> -->
+    <!-- 
   <div class="backdrop modal-hidden" data-modal>
     <div class="modal">
       <button class="model-button" data-modal-close>
@@ -457,7 +480,6 @@
       </form>
     </div>
   </div>
-  <script src="./script/modal.js" type="module"></script>
-</body>
-
+  <script src="./script/modal.js" type="module"></script> -->
+  </body>
 </html>
