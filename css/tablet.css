@@ -36,9 +36,21 @@
   .hero-container {
     padding: 671px 40px 40px 40px;
 
-    background-image: linear-gradient(rgba(17, 17, 17, 0.4),
-          rgba(17, 17, 17, 0.4)),
-        url('../images/mobile/hero-bg@mobile-1x.webp');
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.4),
+        rgba(17, 17, 17, 0.4)
+      ),
+      url('../images/mobile/hero-bg@mobile-1x.webp');
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(17, 17, 17, 0.4),
+          rgba(17, 17, 17, 0.4)
+        ),
+        url('../images/tablet/hero-bg@tablet-2x.webp');
+    }
   }
 
   .hero-tittle {
