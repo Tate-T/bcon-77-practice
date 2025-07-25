@@ -27,6 +27,12 @@
   .hero-container {
     padding: 381px 40px 40px 40px;
 
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.4),
+        rgba(17, 17, 17, 0.4)
+      ),
+      url('../images/descktop/hero-bg.jpg');
+
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -34,7 +40,7 @@
           rgba(17, 17, 17, 0.4),
           rgba(17, 17, 17, 0.4)
         ),
-        url('../images/mobile/hero-bg@mobile-2x.webp');
+        url('../images/descktop/hero-bg_lg@2x.jpg');
     }
   }
 }
